@@ -31,7 +31,10 @@ const Login = () => {
           {err && <span>Something went wrong</span>}
         </form>
         <p>
-          You don't have an account? <Link to="/register">Register</Link>
+          You don't have an account?{" "}
+          <Link style={{ color: "#005c4b" }} to="/register">
+            Register
+          </Link>
         </p>
       </div>
     </div>
