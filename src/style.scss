@@ -130,12 +130,14 @@
           display: flex;
           gap: 10px;
 
+
           img {
             background-color: white;
-            height: 24px;
-            width: 24px;
+            height: 22px;
+            width: 22px;
             border-radius: 50%;
             object-fit: cover;
+            align-self: center;
           }
 
           button {
@@ -153,9 +155,29 @@
       }
       .search {
         border-bottom: 1px solid gray;
+        background-color: #111b21;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        gap: .5em;
 
         .searchForm {
-          padding: 10px;
+          padding: 8px;
+          background-color: #202c33;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          gap: 1em;
+          width: 90%;
+          margin: 0 3px;
+
+          .magnifyingGlass{
+
+            padding-left: 8px;
+            color: #8696a0;
+            font-size: 12px;
+          }
 
           input {
             background-color: transparent;
@@ -168,6 +190,14 @@
             }
           }
         }
+
+        .funnel{
+          width: 5%;
+          color: #8696a0;
+          font-size: 16px;
+          cursor: pointer;
+          margin-right: 5px;
+        }
       }
 
       .userChat {
@@ -177,26 +207,28 @@
         gap: 10px;
         color: white;
         cursor: pointer;
+        padding-left: 13px;
+
 
         &:hover {
           background-color: #2a3942;
         }
 
         img {
-          width: 50px;
-          height: 50px;
+          width: 35px;
+          height: 35px;
           border-radius: 50%;
           object-fit: cover;
         }
 
         .userChatInfo {
           span {
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 500;
           }
           p {
-            font-size: 14px;
-            color: lightgray;
+            font-size: 11px;
+            color: rgb(117, 117, 117);
           }
         }
       }
@@ -233,20 +265,24 @@
 
         .message {
           display: flex;
-          gap: 20px;
+          gap: 15px;
           margin-bottom: 20px;
+          
 
           .messageInfo {
             display: flex;
             flex-direction: column;
             color: gray;
             font-weight: 300;
+            align-self: center;
 
             img {
-              width: 40px;
-              height: 40px;
+              width: 30px;
+              height: 30px;
               border-radius: 50%;
               object-fit: cover;
+                          align-self: center;
+
             }
           }
           .messageContent {
@@ -281,6 +317,7 @@
             }
           }
         }
+        
       }
 
       .input {
@@ -290,6 +327,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 1em;
 
         input {
           width: 100%;
@@ -315,14 +353,21 @@
             height: 24px;
             cursor: pointer;
           }
+        }
 
-          button {
-            border: none;
-            padding: 10px 15px;
-            color: white;
-            background-color: #005c4b;   
-            cursor: pointer;
-          }
+        .micro{
+          color: #a7a9aa;
+          font-size: 20px;
+          
+
+        }
+        button {
+          border: none;
+          padding: 10px 15px;
+          color: white;
+          background-color: #005c4b;   
+          cursor: pointer;
+          border-radius: 5px;
         }
       }
     }

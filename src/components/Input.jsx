@@ -75,12 +75,6 @@ const Input = () => {
   };
   return (
     <div className="input">
-      <input
-        type="text"
-        placeholder="Type something..."
-        onChange={(e) => setText(e.target.value)}
-        value={text}
-      />
       <div className="send">
         <img src={Attach} alt="" />
         <input
@@ -92,8 +86,17 @@ const Input = () => {
         <label htmlFor="file">
           <img src={Img} alt="" />
         </label>
-        <button onClick={handleSend}>Send</button>
       </div>
+      <input
+        type="text"
+        placeholder="Type something..."
+        onChange={(e) => setText(e.target.value)}
+        value={text}
+      />
+      <i className="micro fa-solid fa-microphone"></i>
+      <button onClick={handleSend}>
+        <i className="fa-solid fa-share"></i>
+      </button>
     </div>
   );
 };

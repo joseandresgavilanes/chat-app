@@ -74,11 +74,12 @@ const Search = () => {
     } catch (err) {}
 
     setUser(null);
-    setUsername("")
+    setUsername("");
   };
   return (
     <div className="search">
       <div className="searchForm">
+        <i class="magnifyingGlass fa-solid fa-magnifying-glass"></i>
         <input
           type="text"
           placeholder="Find a user"
@@ -96,6 +97,7 @@ const Search = () => {
           </div>
         </div>
       )}
+      <i class="funnel fa-solid fa-arrow-down-wide-short"></i>
     </div>
   );
 };
