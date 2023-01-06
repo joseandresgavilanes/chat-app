@@ -1,6 +1,5 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import Img from "../img/img.png";
-import Attach from "../img/attach.png";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
 import {
@@ -14,7 +13,11 @@ import { db, storage } from "../firebase";
 import { v4 as uuid } from "uuid";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 
+import EmojiPicker from "./emojiPicker/EmojiPicker";
+
 const Input = () => {
+  const inputRef = useRef(null);
+
   const [text, setText] = useState("");
   const [img, setImg] = useState(null);
 
@@ -76,7 +79,8 @@ const Input = () => {
   return (
     <div className="input">
       <div className="send">
-        <img src={Attach} alt="" />
+        <EmojiPicker ref={inputRef} />
+
         <input
           type="file"
           style={{ display: "none" }}
@@ -92,6 +96,7 @@ const Input = () => {
         placeholder="Type something..."
         onChange={(e) => setText(e.target.value)}
         value={text}
+        ref={inputRef}
       />
       <i className="micro fa-solid fa-microphone"></i>
       <button onClick={handleSend}>
