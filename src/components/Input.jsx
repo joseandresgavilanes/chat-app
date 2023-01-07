@@ -1,5 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 import Img from "../img/img.png";
+// import Attach from "../img/attach.png";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
 import {
@@ -79,6 +80,7 @@ const Input = () => {
   return (
     <div className="input">
       <div className="send">
+        {/* <img src={Attach} alt="" />       */}
         <EmojiPicker ref={inputRef} />
 
         <input
@@ -99,7 +101,7 @@ const Input = () => {
         ref={inputRef}
       />
       <i className="micro fa-solid fa-microphone"></i>
-      <button onClick={handleSend}>
+      <button className="btn_send" onClick={handleSend}>
         <i className="fa-solid fa-share"></i>
       </button>
     </div>

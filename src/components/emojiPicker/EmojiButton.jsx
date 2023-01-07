@@ -5,7 +5,11 @@ const EmojiButton = ({ emoji, onClick }) => {
     onClick(emoji);
   }
 
-  return <button onClick={handleOnClick}>{emoji.symbol}</button>;
+  return (
+    <button className="emoji__icon" onClick={handleOnClick}>
+      {emoji.symbol}
+    </button>
+  );
 };
 
 export default EmojiButton;

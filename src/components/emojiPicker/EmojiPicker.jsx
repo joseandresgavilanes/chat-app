@@ -54,10 +54,16 @@ export default forwardRef((props, inputRef) => {
   }
 
   return (
-    <div ref={containerRef} style={{ position: "relative", display: "inline" }}>
-      <button onClick={handleClick}>😊</button>
+    <div
+      className="emoji__main"
+      ref={containerRef}
+      style={{ position: "relative", display: "inline" }}
+    >
+      <button className="btn_emoji" onClick={handleClick}>
+        <i class="fa-regular fa-face-smile"></i>
+      </button>
       {isOpen ? (
-        <div>
+        <div className="emoji__container">
           <EmojiSearch onSearch={handleSearch} />
           <EmojiList>
             {emojis.map((emoji) => (

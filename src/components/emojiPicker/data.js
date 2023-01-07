@@ -20,7 +20,97 @@ export const data = [
     keywords: "gem stone diamond",
   },
   {
+    symbol: "😎",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "🥶",
+    name: "fuego",
+    keywords: "fire hot burn",
+  },
+  {
+    symbol: "🐶",
+    name: "diamante",
+    keywords: "gem stone diamond",
+  },
+  {
     symbol: "🤯",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "🤑",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "🥵",
+    name: "fuego",
+    keywords: "fire hot burn",
+  },
+  {
+    symbol: "😱",
+    name: "diamante",
+    keywords: "gem stone diamond",
+  },
+  {
+    symbol: "😴",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "😡",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "💀",
+    name: "fuego",
+    keywords: "fire hot burn",
+  },
+  {
+    symbol: "🍕",
+    name: "fuego",
+    keywords: "fire hot burn",
+  },
+  {
+    symbol: "🚀",
+    name: "fuego",
+    keywords: "fire hot burn",
+  },
+  {
+    symbol: "😸",
+    name: "diamante",
+    keywords: "gem stone diamond",
+  },
+  {
+    symbol: "🥺",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "🦎",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "🧡",
+    name: "cabeza explotada",
+    keywords: "head exploding mind blowing",
+  },
+  {
+    symbol: "👀",
+    name: "fuego",
+    keywords: "fire hot burn",
+  },
+  {
+    symbol: "👨‍💻",
+    name: "diamante",
+    keywords: "gem stone diamond",
+  },
+  {
+    symbol: "🏆",
     name: "cabeza explotada",
     keywords: "head exploding mind blowing",
   },

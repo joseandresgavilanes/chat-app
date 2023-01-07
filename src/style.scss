@@ -373,7 +373,7 @@
           
 
         }
-        button {
+        .btn_send {
           border: none;
           padding: 10px 15px;
           color: white;
@@ -381,6 +381,62 @@
           cursor: pointer;
           border-radius: 5px;
         }
+        .btn_emoji{
+          background-color: transparent;
+          border: none;
+          font-size: 18px;
+          padding: 0 0 4px 0;
+          color: #a7a9aa;
+          cursor: pointer;
+
+        }
+
+        .emoji__container{
+          background-color: rgba(97, 97, 97, 0.184);
+          width: 200px;
+          position: absolute;
+          top: -230px;
+          left: 0;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1em;
+          border-radius: 10px;
+
+          .emojis__container{
+            padding: 0 15px;
+            display: flex;
+            flex-wrap: wrap;
+            
+            gap: .6em;
+  
+            .emoji__icon{
+              padding: 0;
+              width: 20px;
+              background-color: transparent;
+              border: none;
+              font-size: 16px;
+    
+            }
+    
+  
+            
+          }
+          .emoji__search{
+            width: 190px;
+            border-radius: 10px 10px 0 0;
+           
+          }
+          .emoji__search::placeholder{
+            font-size: 12px;
+            
+          }
+        }
+
+      
+       
+        
       }
     }
   }
