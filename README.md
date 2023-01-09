@@ -8,6 +8,7 @@
 </h1>
 
 <p align="center">
+  <a href="#how-to-use">Use the project</a> |
   <a href="#about-the-project">About The Project</a> |
   <a href="#layout">Layout</a> |
   <a href="#technologies">Technologies</a> |
@@ -34,6 +35,18 @@
 ---
 
 </br>
+
+<h2 id="how-to-use"> ❗❗ How to use the project </h2>
+
+```bash
+# LOGIN AS
+$ test@gmail.com
+# PASSWORD
+$ test123456
+
+```
+
+---
 
 <h2 id="about-the-project" > ⏰📈 About The Project </h2>
 
