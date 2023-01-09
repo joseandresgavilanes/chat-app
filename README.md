@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+<div align="center">
+  <img alt="logo"  src="./public/smiley.png" style="margin-right: 10px" >
+  <img alt="logo"  src="./public/logo.png" width="120px" >
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    Emoji Selector - Chat App
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#about-the-project">About The Project</a> |
+  <a href="#layout">Layout</a> |
+  <a href="#technologies">Technologies</a> |
+  <a href="#contribution">Contribution</a> |
+  <a href="#author">Author</a> |
+  <a href="#license">License</a>
+</p>
 
-In the project directory, you can run:
+<div align="center">
+  <img alt="preview"  src="./public/preview.png">
+</div>
 
-### `npm start`
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h4 align="center">
+	🚧 Status: Building 🚀  🚧
 
-### `npm test`
+  <p align="center">https://chat-app-topaz-five.vercel.app/</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</h4>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2 id="about-the-project" > ⏰📈 About The Project </h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Chat with your friends.
+2. Choose your favorite emojis.
 
-### `npm run eject`
+## Next steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ] Full Responsive;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+First, run the development server:
 
-## Learn More
+```bash
+# Clone Repository
+$ git clone https://github.com/joseandresgavilanes/chat-app
+# Go to server folder
+$ cd chat-app
+# Install Dependencies
+$ npm i
+# Run Aplication with NPX CREATE-REACT-APP
+$ npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="layout" >🎨  Layout </h2>
 
-### Code Splitting
+### LOGIN
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![screen home](./public/images/BuildingProcess/home.png)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### REGISTER
 
-### Making a Progressive Web App
+![screen home](./public/images/BuildingProcess/bmi.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### CHAT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![screen home](./public/images/BuildingProcess/AGE.png)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### PICK YOUR EMOJI
 
-### `npm run build` fails to minify
+![screen home](./public/images/BuildingProcess/about.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### SEND TO ANYONE
+
+![screen home](./public/images/BuildingProcess/clock.png)
+
+---
+
+<h2 id="technologies"> 🛠 Technologies </h2>
+
+The following tools were used in the construction of the project:
+
+- **[ReactJS](https://reactjs.org)**
+- **[Javascript](https://www.javascript.com/)**
+- **[ViteJS](https://vitejs.dev/)**
+- **[SASS](https://sass-lang.com/)**
+- **[Firebase](https://firebase.google.com/)**
+
+---
+
+<h2 id="contribution"> 💪 Contribution </h2>
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+<h2 id="author"> 💻 Author </h2>
+
+<img style="border-radius: 50% !important;" src="./public/pepe.jpg" width="100px;" alt="photo author"/>
+
+<sub><b>José Andrés Gavilanes - Smiley</b></sub></a> <a href="https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/" title="jose`s linkedin">🚀</a>
+<br />
+[![Linkedin Badge](https://img.shields.io/badge/-Jose-1692B4?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kelwyoliveira/)](https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/)
+[![Gmail Badge](https://img.shields.io/badge/-joseandresgavilanes2012@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:joseandresgavilanes2012@gmail.com)](mailto:joseandresgavilanes2012@gmail.com)
+
+---
+
+<h2 id="license"> 🧍‍♀️🧍‍♂️ Acknowledgements </h2>
+https://www.youtube.com/watch?v=oT-feDPuJmk&t=2829s 
+(VIDA MRR)
+
+---
+
+<h2 id="license"> 📝 License </h2>
+This project is under the [MIT](./LICENSE) license.
